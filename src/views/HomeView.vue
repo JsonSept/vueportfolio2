@@ -10,14 +10,14 @@
   <div class="ball3"><img src="https://i.postimg.cc/gcvFMq3R/pngwing-com.png" alt="" srcset=""></div>
   <div class="ball4"><img src="https://i.postimg.cc/gcvFMq3R/pngwing-com.png" alt="" srcset=""></div>
 </div>
-  <transition>
+  <!-- <transition>
   <div v-if="showP">Hello Ninjas</div>
-  </transition>
   <button @click="showP = !showP">Toggle</button>
+  </transition> -->
 </template>
 
 <script>
-import { ref } from 'vue'
+// import { ref } from 'vue'
 
 export default {
   data(){
@@ -33,7 +33,7 @@ export default {
    
   },
   setup() {
-    const showP = ref(false)
+    // const showP = ref(false)
   },
   
 
@@ -44,19 +44,19 @@ export default {
 .fade-enter-from{
     opacity: 0;
 }
-.fade-enter-active{
+/* .fade-enter-active{
     opacity: 1;
-}
+} */
 .fade-enter-to{
     transition: all 2s ease;
 }
-.fade-enter-from{
+/* .fade-leave-from{
     opacity: 1;
+} */
+.fade-leave-active{
+    opacity: 0;
 }
-.fade-enter-active{
-    opacity: o;
-}
-.fade-enter-to{
+.fade-leave-to{
     transition: all 2s ease;
 }
   .ball {
