@@ -1,0 +1,159 @@
+{
+    "about" : [
+        "Hello my name is Jason September ,I am 25 years old. I like to be on the road and not at home ,I like going to new places and meeting new people. I also like discovering new restaurants and trying out their foods. I like to work out and keep myself fit whenever I am not too lazy. I love watching anime and I don't think that will stop anytime soon.",
+        "I never knew much about computers on school ,only found my fascination for it late in my life but not too late to persue a career in the tech industry.I have done coding online through CodeSpace and that's where I started as an Aspiring Developer .I am stil very inexperienced when it comes to coding but more than willing to learn so that I can better myself ,my knowledge and my understanding of how code works."
+    
+    ],
+    "workExperience": [
+    {
+     "id": 1,
+     "place": "Spar",
+     "year": 2017,
+     "duration" : "6 months",
+     "description": "I worked as a packer in the fruit and veg isle."
+    },    
+        {
+     "id": 2,
+     "place": "Helpende Hande",
+     "year": 2017,
+     "duration" : "1 month",
+     "description": "Worked as a male nurse at an Old Age Home called helpende hande located in stikland."
+    },    
+    {
+     "id": 3,
+     "place": "Meatrite",
+     "year": "2018-2019",
+     "duration" : "13 months",
+     "description": "Worked as cashier and all arounder"
+    },    
+    {
+     "id": 4,
+     "place": "Flint Group",
+     "year": "2020-2023",
+     "duration" : "2 years 10months",
+     "description": "Started as a factory worker and worked myself up into our branch's colour lab and worked as a colour matcher for 2 years"
+    }       
+    ],
+    "education": [
+        {
+            "id": 1,
+            "year": 2016,
+            "description": "I Matriculated in 2016 at",
+            "place": "Forest height High School"
+        },
+        {
+            "id" : 2,
+            "year" : "2022",
+            "description" : "10 months of Online studying",
+            "place" : "CodeSpace",
+            "Languages" : "Scratch,HTML,CSS,JavScript"
+        }
+    ],
+    "subjects" : [
+        {
+            "id" : 1,
+            "name" : "Afrikaans"
+        },
+        {
+            "id" : 2,
+            "name" : "English"
+        },
+        {
+            "id" : 3,
+            "name" : "Life Orientation"
+        },
+        {
+            "id" : 4,
+            "name" : "Biology"
+        },
+        {
+            "id" : 5,
+            "name" : "Geography"
+        },
+        {
+            "id" : 6,
+            "name" : "Maths Literacy"
+        },
+        {
+            "id" : 7,
+            "name" : "Physical Science"
+        }
+    ],
+    "reviews": [
+        {
+            "id" :1,
+            "name": "Taryn-lee",
+            "surname": "Walbrugh",
+            "title": "Aspiring Developer",
+            "quotes": "Jason is very kind-hearted and compassionate,He enjoy what he does and that speaks wonders. He never backs down from hardships or struggles that's a quality that I admire. Jason takes pride in his work and it truly shows",
+            "profile": "https://i.postimg.cc/3whbRC94/IMG-20231102-120453.jpg"
+        },
+        {
+            "name": "Nathalie",
+            "surname": "Willemse",
+            "title": "Aspiring Developer",
+            "quotes": "Jason is a very soft-spoken individual and always helps where he can. He is very humble and always hope for the best. He is very knowledgeable and is quite generous with bestowing that with others.",
+            "profile": "https://cdn-images.imagevenue.com/df/5c/ca/ME17G550_o.jpg"
+        },
+        {
+            "name": "Matthew",
+            "surname": "Swain",
+            "title": "Aspiring Developer",
+            "quotes": "Jason September is an outstanding individual, whether it be his work or him as a person . Always pleasant to work with, always promotes positivity, great communicative skills and has unmatched enthusiasm and determination. He is the ideal work colleague but mainly the the best companion and friend.",
+            "profile": "https://i.postimg.cc/YqTHrNtH/IMG-20191224-165149-374.jpg"
+        },
+        {
+            "name": "Darren",
+            "surname": "Viljoen",
+            "title": "Aspiring Developer",
+            "quotes": "Jason September is a naturally skilled developer who has a bright future in this industry. His hard work and his willingness to assist others already makes him such a talented developer. Once you see his projects or designs, its only then that you realize what an incredibly high work ethic Jason has.",
+            "profile": "https://i.postimg.cc/cHFbdFJd/Screenshot-2023-11-03-145432.png"
+        },
+        {
+            "name": "Matthew Dean",
+            "surname": "Brown",
+            "title": "Lecturer",
+            "quotes": "Jason is very outstanding and creative individual,who struggles at first but always rises to the occation.He shows good promise in his work and work well with groups and always has a positive attitude.",
+            "profile": "https://i.postimg.cc/3NDWZHLj/Matthew.png"
+        }
+    ],
+   "projects": [
+        {
+            "name": "Sneaker Shop",
+            "description" : "A sneaker shop website made with HTML and CSS",
+            "url" : "https://i.postimg.cc/Y2QGKLXs/Screenshot-2023-11-01-113304.png",
+            "github" : "https://github.com/JsonSept/week1.git",
+            "netlify" : "https://adorable-churros-ec7e34.netlify.app"
+        },
+        {
+            "name": "Calculator",
+             "description" : "Made with HTML, CSS and JavaScript",
+             "url" : "https://i.postimg.cc/RV2d0H1x/Screenshot-2023-11-01-115621.png",
+             "github" : "https://github.com/JsonSept/Calculator.git",
+            "netlify" : "https://melodic-tanuki-6eed1b.netlify.app"
+            
+        },
+        {
+            "name": "Keyboard",
+             "description" : "Made with HTML, CSS and JavaScript",
+             "url" : "https://i.postimg.cc/HncWWRHm/Screenshot-2023-11-01-115543.png",
+             "github" : "https://github.com/JsonSept/keyboard.git",
+            "netlify" : "https://effervescent-manatee-8e6619.netlify.app"
+        },
+        {
+            "name": "Coffee Shop",
+             "description" : "Made HTML and CSS",
+             "url" : "https://i.postimg.cc/gcs3xBRW/Screenshot-2023-11-01-115720.png",
+             "github" : "https://github.com/JsonSept/e-commerce-website.git",
+            "netlify" : "https://dynamic-liger-9dc540.netlify.app"
+        },
+       {
+            "name": "My Portfolio",
+             "description" : "Made HTML, CSS and JavaScript",
+             "url" : "https://i.postimg.cc/Y2YJBXyD/Screenshot-2023-11-03-213919.png",
+             "github" : "https://github.com/JsonSept/my-Portfolio.git",
+            "netlify" : "https://hilarious-torrone-80eed2.netlify.app"
+        }
+    ]
+
+}
