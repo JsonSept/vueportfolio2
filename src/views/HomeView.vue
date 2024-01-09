@@ -24,17 +24,19 @@ export default {
     return {
       greet: 'HI',
       name: 'My name is Jason September',
-      image: {background: "url(<>)"},
-      showP
+    //   image: {background: "url(<>)"},
+    //   showP
     }
   },
   name: 'HomeView',
   components: {
    
   },
-  setup() {
+//   setup() {
     // const showP = ref(false)
-  },
+
+
+//   },
   
 
 }
