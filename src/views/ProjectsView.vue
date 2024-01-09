@@ -69,7 +69,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    /* margin-left: 25px; */
+    margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
     box-shadow: 0 4px 20px 0 #0F1A2D;
