@@ -31,9 +31,11 @@ this.reviews
     
 }
 </script>
-<style>
+<style scoped>
+
+
         .card {
-    text-align: center;
+    /* text-align: center; */
    
     box-shadow: 0 4px 20px 0 #0F1A2D;
     transition: 0.3s;
@@ -42,7 +44,12 @@ this.reviews
     width: 50%;
 }
 
-    
+    img {
+      text-align: center;
+      height: 10vh;
+      width: 80px;
+      margin-right: 20%;
+    }
 
 .card:hover{
     box-shadow: 0 8px 40px 0 #00ffe5;

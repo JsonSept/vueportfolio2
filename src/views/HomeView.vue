@@ -10,37 +10,37 @@
   <div class="ball3"><img src="https://i.postimg.cc/gcvFMq3R/pngwing-com.png" alt="" srcset=""></div>
   <div class="ball4"><img src="https://i.postimg.cc/gcvFMq3R/pngwing-com.png" alt="" srcset=""></div>
 </div>
-  
+  <transition>
+  <div v-if="showP">Hello Ninjas</div>
+  </transition>
+  <button @click="showP = !showP">Toggle</button>
 </template>
 
 <script>
-
+import { ref } from 'vue'
 
 export default {
   data(){
     return {
       greet: 'HI',
       name: 'My name is Jason September',
-      image: {background: "url(<>)"}
+      image: {background: "url(<>)"},
+      showP
     }
   },
   name: 'HomeView',
   components: {
    
-  }
+  },
+  setup() {
+    const showP = ref(false)
+  },
+  
 
 }
 </script>
 
 <style scoped>
-template {
-    background-image: url("https://drive.google.com/file/d/1wA70jm4cBZ6eHsghI2oKrIREULfHseim/view?usp=drive_link");
-}
-  .body {
-    background-color: black;
-    background-image: url(https://drive.google.com/file/d/1wA70jm4cBZ6eHsghI2oKrIREULfHseim/view?usp=drive_link);
-  }
-
 
   .ball {
         margin-right: 40px;

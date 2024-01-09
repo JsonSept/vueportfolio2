@@ -24,8 +24,11 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  background-color: black;
-
+  /* background-color: black; */
+  background-image: url("https://i.postimg.cc/K8Wjnnz4/bg2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {

@@ -1,14 +1,14 @@
 <template lang="">
     <div>
-        <h1>Education</h1>
+        <h1>Education</h1><br>
         <div class="card" v-for="info in $store.state.education" :key="info">
           <h4>
           {{ info.year }} <br>
             {{ info.description }} <br>
             {{ info.place }} <br>
-          </h4>
+          </h4><br>
         </div>
-        <h1>Work Experience</h1>
+        <h1>Work Experience</h1><br>
        <div class="card" v-for="info in $store.state.workExperience" :key="info">
         <h4>
         {{ info.place }} <br>
