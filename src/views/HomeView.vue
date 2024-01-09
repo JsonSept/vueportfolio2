@@ -39,9 +39,26 @@ export default {
 
 }
 </script>
-
+<!-- continue on this animation and also check video for how to install ref that you imported -->
 <style scoped>
-
+.fade-enter-from{
+    opacity: 0;
+}
+.fade-enter-active{
+    opacity: 1;
+}
+.fade-enter-to{
+    transition: all 2s ease;
+}
+.fade-enter-from{
+    opacity: 1;
+}
+.fade-enter-active{
+    opacity: o;
+}
+.fade-enter-to{
+    transition: all 2s ease;
+}
   .ball {
         margin-right: 40px;
         width: 25%;
