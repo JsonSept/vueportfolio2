@@ -1,7 +1,11 @@
-<template class="body bg-black">
+<template class="body">
     <div>
+
+    </div>
+ 
+     <div>
         <div class="containerP">
-            <div class="card" v-for="info in $store.state.projects" :key="info">
+            <div class="card" style="width: 20rem; height:20rem" v-for="info in $store.state.projects" :key="info">
             {{ info.name }} <br>
             {{ info.description }} <br>
             {{ info.url }} <br>
@@ -17,11 +21,11 @@
             </div>
         </div>
         </div>
-        
-        
+     </div>
+
         
         <!-- <h1>{{ projects }}</h1> -->
-    </div>
+    
 </template>
 <script>
 export default {
@@ -56,11 +60,11 @@ button {
     border-radius: 7px;
     position: relative;
   transition: top 0.3s ease-in-out;
-    /* justify-content: center; */
+   
 }
 button:hover {
-    /* transform: scaleX(0.05); */
-    /* transform:translateX(1) */
+    transform: scaleX(0.05);
+   
     top: -5px;
 }
     .card {
@@ -89,5 +93,23 @@ button:hover {
     zoom: 101%;
 }
 
+@media screen and (max-width: 300px) {
+    .card {
+        font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 20px 0 #0F1A2D;
+    transition: 0.3s;
+    margin: 15px;
+    height: 42%; 
+    width: 60%; 
+}
+}
 
 </style>

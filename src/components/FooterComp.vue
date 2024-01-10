@@ -1,6 +1,6 @@
-<template lang="">
-    <div>
-        <h3 class="footer bg-dark text-light">&copy;Copyright {{ currentYear }} {{ title }}</h3>
+<template >
+    <div class="footer fixed-bottom ">
+        <h3 class="footer bg-black text-light">&copy;Copyright {{ currentYear }} {{ title }}</h3>
     </div>
 </template>
 <script>
@@ -20,10 +20,5 @@ export default {
     box-sizing: border-box;
  }
 
-    h3 {
-        position:static;
-        text-align: center;
-        margin-top: 64.5%;
-        width: 100%;
-    }
+   
 </style>

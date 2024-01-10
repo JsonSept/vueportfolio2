@@ -46,7 +46,7 @@ nav a {
 nav a.router-link-exact-active {
   color: black;
   padding:7px;
-  background-color: aqua;
+  color: aqua;
   border-radius: 7px;
 }
 </style>
