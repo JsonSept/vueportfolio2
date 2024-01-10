@@ -1,12 +1,20 @@
 <template lang="">
     <div>
        
-<nav class="navbar navbar-dark">
+<nav class="navbar navbar-dark bg-black">
                     
                     <div class="container-fluid">
                       <button class="navbar-toggler navbar-toggler-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
+                      <div class="nav2 nav2-start">
+                        <router-link to="/">Home</router-link> |
+                      <router-link to="/about">About</router-link> |
+                      <router-link to="/resume">Resume</router-link> |
+                      <router-link to="/projects">Projects</router-link> |
+                      <router-link to="/reviews">Reviews</router-link> |
+                      <router-link to="/contact">Contact</router-link> 
+                      </div>
                       
                       <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div class="offcanvas-header">
@@ -58,12 +66,8 @@
                                     </svg>
                                        <router-link to="/contact">Contact</router-link>
                                    </div>
-                       
                                 </ul>
-                
                             </ul>
-                            
-                        
                         </div>
                         <nav class="navbar justify-content-end" style="height:50px; width:100%;margin-bottom: 30px; ">
                             <div class="logo1  p-3">
@@ -98,6 +102,11 @@ export default {
 }
 </script>
 <style>
+.nav2 {
+  display: flex;
+  /* justify-content: left; */
+  justify-content: flex-start;
+}
     nav {
         box-shadow: 0 4px 20px 0 #0F1A2D;
     transition: 0.3s;
@@ -105,5 +114,12 @@ export default {
 
     .navbar {
         text-align: center;
+    }
+
+    @media screen and (max-width: 900px) {
+      .nav2 {
+        font-size: 12px;
+      }
+
     }
 </style>

@@ -5,6 +5,8 @@ import router from './router'
 import store from './store'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
+
+
 const head = document.head;
 const link = document.createElement('link');
 link.rel = 'stylesheet';
