@@ -1,8 +1,16 @@
 {
     "about" : [
-        "Hello my name is Jason September ,I am 25 years old. I like to be on the road and not at home ,I like going to new places and meeting new people. I also like discovering new restaurants and trying out their foods. I like to work out and keep myself fit whenever I am not too lazy. I love watching anime and I don't think that will stop anytime soon.",
-        "I never knew much about computers on school ,only found my fascination for it late in my life but not too late to persue a career in the tech industry.I have done coding online through CodeSpace and that's where I started as an Aspiring Developer .I am stil very inexperienced when it comes to coding but more than willing to learn so that I can better myself ,my knowledge and my understanding of how code works."
+        
+        "Hello my name is Jason September ,I am 25 years old.",
+        "I have a very peaceful background ,with a loving family and supportive friends who are always my inspiration to always try to improve myself.I recently discovered that I have a love for coding and want to persue it even further and learn more about it in my journey."
     
+    ],
+    "hobbies" : [
+        {
+        "anime" : "I love watching anime and eating out in my free time as a way to help myself relax.",
+        "code" : "Despite being new aspiring developer I have discovered that I love coding and hope to further my knowledge on it.",
+        "music" : "I love my music I started practicing playing guitar at home which also helps further my love for music as well as learning." 
+        }
     ],
     "workExperience": [
     {
@@ -114,7 +122,7 @@
             "surname": "Roulstone",
             "title": "Aspiring Developer",
             "quotes": "Jason is an exceptional student who succeeds at anything  what he puts his mind to, his approach to complex logic and his team spirit is unique and whereas he will make him become one of the most important assets to the work place and to people he collaborates with together with this he is also hardworking and never gives up on a challenge with this is his hunger and thirst for knowledge is unquestionably what makes him the best at what he does, I am truly proud I met him along the way in my life he is truly one of the best people I have worked with.",
-            "profile": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgA…YFQCVqCXSO8GcB6YffMv/A/0E4j2PhdsaAAAAAElFTkSuQmCC"
+            "profile": "https://i.ibb.co/Lr7GW7Q/20231103-075902.jpg" 
         },
         {
             "name": "Matthew Dean",
@@ -125,42 +133,49 @@
         }
     ],
    "projects": [
-        {
-            "name": "Sneaker Shop",
-            "description" : "A sneaker shop website made with HTML and CSS",
-            "url" : "https://i.postimg.cc/Y2QGKLXs/Screenshot-2023-11-01-113304.png",
-            "github" : "https://github.com/JsonSept/week1.git",
-            "netlify" : "https://adorable-churros-ec7e34.netlify.app"
-        },
-        {
-            "name": "Calculator",
-             "description" : "Made with HTML, CSS and JavaScript",
-             "url" : "https://i.postimg.cc/RV2d0H1x/Screenshot-2023-11-01-115621.png",
-             "github" : "https://github.com/JsonSept/Calculator.git",
-            "netlify" : "https://melodic-tanuki-6eed1b.netlify.app"
-            
-        },
-        {
-            "name": "Keyboard",
-             "description" : "Made with HTML, CSS and JavaScript",
-             "url" : "https://i.postimg.cc/HncWWRHm/Screenshot-2023-11-01-115543.png",
-             "github" : "https://github.com/JsonSept/keyboard.git",
-            "netlify" : "https://effervescent-manatee-8e6619.netlify.app"
-        },
-        {
-            "name": "Coffee Shop",
-             "description" : "Made HTML and CSS",
-             "url" : "https://i.postimg.cc/gcs3xBRW/Screenshot-2023-11-01-115720.png",
-             "github" : "https://github.com/JsonSept/e-commerce-website.git",
-            "netlify" : "https://dynamic-liger-9dc540.netlify.app"
-        },
-       {
-            "name": "My Portfolio",
-             "description" : "Made HTML, CSS and JavaScript",
-             "url" : "https://i.postimg.cc/Y2YJBXyD/Screenshot-2023-11-03-213919.png",
-             "github" : "https://github.com/JsonSept/my-Portfolio.git",
-            "netlify" : "https://hilarious-torrone-80eed2.netlify.app"
-        }
+    {
+        "name": "Sneaker Shop",
+        "description" : "A sneaker shop website made with HTML and CSS",
+        "url" : "https://i.postimg.cc/Y2QGKLXs/Screenshot-2023-11-01-113304.png",
+        "github" : "https://github.com/JsonSept/week1.git",
+        "netlify" : "https://adorable-churros-ec7e34.netlify.app"
+    },
+    {
+        "name": "Calculator",
+         "description" : "Made with HTML, CSS and JavaScript",
+         "url" : "https://i.ibb.co/TYdVNs3/Screenshot-2024-01-11-144312.png",
+         "github" : "https://github.com/JsonSept/Calculator.git",
+        "netlify" : "https://melodic-tanuki-6eed1b.netlify.app"
+        
+    },
+    {
+        "name": "Keyboard",
+         "description" : "Made with HTML, CSS and JavaScript",
+         "url" : "https://i.postimg.cc/HncWWRHm/Screenshot-2023-11-01-115543.png",
+         "github" : "https://github.com/JsonSept/keyboard.git",
+        "netlify" : "https://effervescent-manatee-8e6619.netlify.app"
+    },
+    {
+        "name": "Coffee Shop",
+         "description" : "Made HTML and CSS",
+         "url" : "https://i.ibb.co/dG1Bn3K/Screenshot-2024-01-11-144202.png",
+         "github" : "https://github.com/JsonSept/e-commerce-website.git",
+        "netlify" : "https://dynamic-liger-9dc540.netlify.app"
+    },
+   {
+        "name": "My Ecommerse Website",
+         "description" : "Made HTML, CSS and JavaScript",
+         "url" : "https://i.ibb.co/Y0VrQ5x/Screenshot-2024-01-11-144247.png",
+         "github" : "https://github.com/JsonSept/newEcommerse.git",
+        "netlify" : "https://sparkling-figolla-37748c.netlify.app"
+    },
+   {
+        "name": "RGB to Hex Calculator",
+         "description" : "Made HTML, CSS and JavaScript",
+         "url" : "https://i.ibb.co/7tkTTwB/Screenshot-2024-01-11-150844.png",
+         "github" : "https://github.com/JsonSept/hexToRGB.git",
+        "netlify" : "https://harmonious-crostata-a6bdc9.netlify.app"
+    }
     ]
 
 }

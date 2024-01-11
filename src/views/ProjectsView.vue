@@ -1,30 +1,30 @@
 <template class="body">
-    <div>
-
-    </div>
+    
+<h1>My projects</h1>
  
      <div>
         <div class="containerP">
             <div class="card" style="width: 20rem; height:20rem" v-for="info in $store.state.projects" :key="info">
             {{ info.name }} <br>
             {{ info.description }} <br>
-            {{ info.url }} <br>
+            <img :src="info.url" alt="">
+            
             <div class="btn">
-                <a :href="info.github"><button>
+                <a :href="info.github" target="_blank"><button>
                     Github
                 
             </button></a>
-            <a :href="info.netlify"><button>
+            <a :href="info.netlify" target="_blank"><button>
                 Netlify
                
             </button></a>
             </div>
         </div>
         </div>
-     </div>
+      </div>
 
         
-        <!-- <h1>{{ projects }}</h1> -->
+         <!-- <h1>{{ projects }}</h1> -->
     
 </template>
 <script>
@@ -49,6 +49,56 @@ this.projects
 }
 </script>
 <style scoped>
+/* ------------------------ */
+.container{
+  display:flex;
+  align-items:center;
+  min-height:100vh;
+}
+.card-img-overlay{
+   transform: translateY(13rem);
+   transition: transform .18s ease-in;
+   background-color: rgba(0,0,0,1);
+  .card-text{
+    opacity:0;
+    transform: translateY(-6rem);
+    transition: opacity .05s ease-in, transform .25s ease-in;
+  }
+  .btn{
+    opacity:0;
+    transform: translateY(2rem);
+  }
+}
+.card{
+  overflow: hidden;
+  background-color: #345;
+  &:hover{
+    .card-img{
+      mix-blend-mode: overlay;
+    }
+    .card-img-overlay{
+      transform: translateY(0);
+      transition: transform .25s ease-out;
+      background-color: rgba(0,0,0,.1);
+    }
+    .card-text{
+      opacity: 1;
+      transform: translateX(0);
+      transition: opacity .5s ease-out, transform .2s ease-out;
+    }
+    .btn{
+      opacity:1;
+      transform: translateX(0);
+      transition: opacity .7s ease-out, transform .35s ease-out;
+    }
+  }
+}
+
+
+/* ------------------------ */
+
+
+
 .btn {
     display:flex;
     justify-content: space-around;

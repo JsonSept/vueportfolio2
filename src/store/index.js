@@ -9,6 +9,7 @@ export default createStore({
     subjects:null,
     reviews:null,
     projects:null,
+    hobbies:null
   },
   getters: {
   },
@@ -31,6 +32,9 @@ export default createStore({
     setProjects(state,projects) {
       state.projects = projects;
     },
+    setHobbies(state,hobbies) {
+      state.hobbies = hobbies;
+    },
   },
   actions: {
     fetchData(context) {
@@ -45,6 +49,7 @@ export default createStore({
                       context.commit('setEducation',payload.education)
                       context.commit('setSubjects',payload.subjects)
                       context.commit('setProjects',payload.projects)
+                      context.commit('setHobbies',payload.hobbies)
                     })
     },
     

@@ -3,17 +3,29 @@
   <div class="about">
     <div class="div1">
       
-      <img class="portimage" v-if="!show" src="	https://cdn-thumbs.imagevenue.com/ec/c6/8e/ME17GC0W_b.jpg" alt="">
+      <img id="portimage" class="animate__animated animate__fadeInLeft" v-if="!show" src="	https://cdn-thumbs.imagevenue.com/ec/c6/8e/ME17GC0W_b.jpg" alt="">
     </div>
 
     <div class="div2">
-      <div class="card">
-    <h5 v-for="info in $store.state.about" :key="info"> 
+      <div id="card" class="animate__animated animate__fadeInLeft">
+    <h4  v-for="info in $store.state.about" :key="info"> 
       {{ info }}
-    </h5>
+    </h4>
+   
+  </div><br>
+  <div id="card" class="animate__animated animate__fadeInRight">
+    <h4 v-for="info in $store.state.hobbies" :key="info">{{ info.anime }}</h4>
+  </div>
+  <br>
+  <div id="card" class="animate__animated animate__fadeInLeft">
+    <h4 v-for="info in $store.state.hobbies" :key="info">{{ info.music }}</h4>
+  </div>
+<br>
+  <div id="card" class="animate__animated animate__fadeInRight">
+    <h4 v-for="info in $store.state.hobbies" :key="info">{{ info.code }}</h4>
   </div>
     </div>
-    
+    ,
 
   </div>
 </template>
@@ -28,21 +40,41 @@
    computed: {
       about(){
         this.$store.dispatch('fetchData')
+      },
+      hobbies(){
+        this.$store.dispatch('fetchData')
       }
    },
     mounted(){
-      this.about
-    }
+      this.about,
+      this.hobbies
+    },
    
   }
 </script>
 
+
 <style scoped>
+/* animation */
+#animate__animated.animate__bounceInLeft {
+  --animate-duration: 6s;
+}
+anim
+/* This changes all the animations globally */
+:root {
+  /* --animate-duration: 800ms; */
+  /* --animate-delay: 0.9s; */
+}
+
+
+
+/* --------- */
+
 h1 {
   padding-top: 20px;
   text-align: center;
 }
-.portimage {
+#portimage {
     height: 41vh;
     width:50%;
     border-radius: 100%;
@@ -50,7 +82,7 @@ h1 {
 .div1 , .div2 {
   margin-top: 10%;
   width:50%;
-  padding-bottom: 40%;
+  padding-bottom: 5%;
 } 
 h5 {
   font-size: 13px;
@@ -59,11 +91,12 @@ h5 {
   display: flex;
  
 }
-.card {
+#card {
   text-align: center;
   height: auto;
   width: 82%;
-  opacity: 1;
+  /* opacity: 1; */
+  background-color: black;
   border-radius: 6px;
   box-shadow: 0 8px 40px 0 aqua;
   
@@ -92,6 +125,7 @@ h5 {
 .div2 {
   margin-left:10%;
   width:100%;
+  
   
 }
 }
