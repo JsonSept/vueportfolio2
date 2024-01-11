@@ -98,22 +98,37 @@ export default {
     /* justify-content: space-around; */
     padding-bottom: 125px;
  }
-/* .cont {
-  display: flex;
-  text-align: center;
-} */
+
  
- .cont1 , .cont2 {
+ .cont1 {
   width: 50%;
   display: flex;
+  border: solid black 2px;
+  margin-top: 3%;
+  padding-left: 10%;
+  background-color: black;
+  box-shadow: 0,0,0,2px #0592ae;
+
+  margin-left: 30px;
  }
-.cont1 {
-margin-top: 5%;
-margin-left: 15%;
-}
+
+
+
  .cont2 {
   margin-left: 15%;
-  margin-top: 13%;
+  margin-top: 9%;
+  width: 50%;
+  display: flex;
+  border: solid black 2px;
+  background-color: black transparent 0.1;
+  margin-top: 3%;
+  margin-right: 30px;
+  padding-top: 10%;
+  padding-left: 12%;
+  /* background-color: black; */
+  box-shadow: 0,0,0,2px #0592ae;
+
+  
  
  }
 

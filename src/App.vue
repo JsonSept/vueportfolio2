@@ -24,11 +24,11 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  /* background-color: black; */
-  background-image: url("https://i.postimg.cc/K8Wjnnz4/bg2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 2)), url("https://i.ibb.co/tH9gT72/mynewbg.jpg");
+  background-blend-mode: darken;
 }
 
 nav {

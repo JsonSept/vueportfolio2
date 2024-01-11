@@ -1,27 +1,29 @@
 <template>
-    
-<div class="structureR">
-    <div class="cardR"  v-for="info in $store.state.reviews" :key="info">
-      <div class="divV2">
-        {{ info.name}}
-      {{ info.surname }}
-      <br>
-      <br>
-      {{ info.title }}
-      <br>
-      <br>
-      {{ info.quotes }}
-      <br>
+    <h1>My Reviews</h1>
+<!-- <div class="card"> -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div id="test" class="carousel-item" v-for="info,index in $store.state.reviews" :key="info" :class="{active: index==0}">
+  <div class="cardReviews">
+    <img class="img" :src="info.profile" alt="">
+    <h3>{{ info.name}}
+      {{ info.surname }}</h3><br>
+      <h4>{{ info.title }}</h4><br>
+      <div class="divi">
+        <p>{{ info.quotes }}</p>
       </div>
-      
-      <div class="divV1">
-        <img class="img" :src="info.profile" alt="">
-      </div>
-      
     </div>
   </div>
-
-  
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 </template>
 
@@ -36,7 +38,6 @@ computed: {
    reviews(){
      this.$store.dispatch('fetchData')
    }
-   
 },
 mounted(){
 this.reviews
@@ -45,24 +46,39 @@ this.reviews
 }
 </script>
 <style scoped>
-
+.divi {
+  width: 20rem;
+  margin-left: 29%;
+  padding-bottom: 2%;
+}
+.cardReviews {
+  margin-left: 25%;
+  margin-top:2%;
+  margin-bottom:9%;
+  text-align: center;
+  background-color: azure;
+  color:black;
+  width: 50%;
+  height: fit-content;
+  border-radius: 9px;
+  box-shadow: 0 8px 40px 0 white;
+}
+#test {
+  text-align: center;
+  padding-bottom: 2%;
+  border:10px solid black;
+}
 .structureR {
   display: flex;
-  /* justify-content: space-around; */
 }
-        .cardR {
-    box-shadow: 0 4px 20px 0 #0F1A2D;
-    transition: 0.3s;
-    margin: 15px;
-    height: auto;
-    width: 50%;
-}
+   
 
     img {
       text-align: center;
-      height: 10vh;
-      width: 80px;
-      margin-right: 20%;
+      height: 30vh;
+      width: 150px;
+      margin-right: 4%;
+      margin-top: 2%;
     }
 
 .card:hover{
@@ -71,7 +87,7 @@ this.reviews
 
 @media screen and (max-width: 900px) {
     .structureR {
-        font-size: 7px;
+        /* font-size: 2px; */
         display: inline-block;
         display: grid;
     
@@ -79,12 +95,21 @@ this.reviews
 
 }
 @media screen and (max-width: 900px) {
+  .cardReviews {
+    font-size: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  p{
+    margin-right: 70%;
+  }
   .cardR {
     width: 15rem;
     height: fit-content;
     text-align: center;
     display: flex;
     justify-content: center;
+  
   }
   
 }

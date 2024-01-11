@@ -7,36 +7,31 @@
     
  <div class="container">
     
-  <div class="ball"><img src="https://i.postimg.cc/gcvFMq3R/pngwing-com.png" alt="" srcset=""></div>
-  <div class="ball1"><img src="https://i.postimg.cc/gcvFMq3R/pngwing-com.png" alt="" srcset=""></div>
-    <!-- <div class="div1">
-        <button @click="show = !show" class="btn">Toggle</button>
-    </div> -->
-    <!-- <div class="div2">
-        <Transition>
-      <h1 v-if="show"> {{ greet }} </h1>
-    </Transition>
-    <Transition>
-      <h1 v-if="show"> {{ name }} </h1>
-    </Transition>
-    <transition>
-         -->
-        
   
-    <!-- </transition> -->
+    
+<div class="conti">
+  <div>
+  <img id="bg" class="animate__animated animate__fadeIn" src="https://i.ibb.co/qRMRtTn/IMG-16413531471213505-removebg-preview.png" alt="">
+</div>
+  <div id="gfg1">
+    
 
-    <div id="gfg1">
-        <div id="geek1"> {{ greet }} </div>
-        <div id="geek2"> {{ name }} </div>
+       
+        <div class="typing-demo">Hi I'm <span class="name name-primary">{{ name }}</span></div>
+        
+        <router-link to="/about"><button class="animate__animated animate__fadeInRight" to="/src/views/AboutView.vue">About Me</button></router-link>
+       
+      </div>
     </div>
-    <div class="ball3"><img src="https://i.postimg.cc/gcvFMq3R/pngwing-com.png" alt="" srcset=""></div>
-  <div class="ball4"><img src="https://i.postimg.cc/gcvFMq3R/pngwing-com.png" alt="" srcset=""></div>
-  
+  </div>
+    
+
     </div>
     
   
- </div>
+ <!-- </div> -->
   
+
 
 </template>
 
@@ -49,7 +44,10 @@ export default {
     return {
         show: false,
       greet: 'Hi',
-      name: 'My name is Jason September',
+      name: 'Jason September',
+      text: 'And I am an',
+      title: 'Aspiring Developer'
+    
    
     }
   },
@@ -58,11 +56,7 @@ export default {
         console.log(this.show)
       }
   },
-  watch: {
-      show: function (newVal, oldVal) {
-        console.log('show changed from', oldVal, 'to', newVal)
-      }
-    },
+  
   name: 'HomeView',
   components: {
    
@@ -73,31 +67,62 @@ export default {
 </script>
 
 <style scoped>
+button {
+ border-radius: 15px;
+ background-color: aqua;
+ border: none;
+ padding: 4px;
+}
+.typing-demo {
+  width: 510px;
+  animation: typing 4s steps(30), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
 
-/* animation */
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
 #gfg1 {
-            animation-name: text;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
-        }
- 
-        #geek1 {
-            font-size: 40px;
-            text-align: center;
-            font-weight: bold;
-            color: white;
-            padding-bottom: 5px;
-           
-            
-        }
- 
-        #geek2 {
-            font-size: 40px;
-            font-weight: bold;
-            text-align: center;
-            padding-bottom: 59px;
-        }
- 
+  margin-left: 18%;
+  margin-top: 12%;
+}
+.conti {
+  display: flex;
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+#bg {
+  height: 98%;
+  width: 100%;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+/* home animation */
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__fadeInRight{
+  --animate-duration: 15s;
+}
+/* This changes all the animations globally */
+:root {
+  /* --animate-duration: 800ms; */
+  --animate-duration: 4s;
+  --animate-delay: 0.9s;
+}
+
+
+
         @keyframes text {
             from {
                 margin-top: 400px;
@@ -109,16 +134,11 @@ export default {
         }
 
 /* --------- */
-
-
-/* .div1 , .div2 {
-    width: 50%;
-    height: auto;
+img {
+  padding-bottom: 7%;
 }
-.container {
-    display: flex;
-    justify-content: center;
-} */
+
+
 .btn {
     border-radius: 7px;
     height: 90px;
@@ -138,73 +158,6 @@ export default {
   opacity: 0;
 }
 
-  .ball {
-        margin-right: 40px;
-        width: 25%;
-        height: 25%;
-    transition:all 0.5s;
-    margin-left: 10%;
-    margin-top:10%;
-    
-}
-.ball:hover {
-    transform: scale(3.05)
-
-}
-/* ------------------------------------------------------- */
-.ball1 {
-        margin-right: 40px;
-        width: 25%;
-        height: 25%;
-    transition:all 0.5s;
-    margin-left: 60%;
-}
-.ball1:hover {
-    transform: scale(3.05);
-    
-    
-}
-
-.ball3 {
-        margin-right: 40px;
-        width: 25%;
-        height: 25%;
-    transition:all 0.5s;
-    margin-left: 2%;
-    margin-top:5%
-   
-}
-.ball3:hover {
-    transform: scale(3.05)
-    
-}
-/* ------------------------------------------------------- */
-.ball4 {
-        margin-right: 40px;
-        width: 25%;
-        height: 25%;
-    transition:all 0.5s;
-    margin-left: 60%;
-    
-}
-.ball4:hover {
-    transform: scale(3.05)
-    
-}
-/* ------------------------------------------------------- */
-.ball5 {
-        margin-right: 40px;
-        width: 5%;
-        height: 5%;
-    transition:all 0.5s;
-    margin-left: 80%;
-    
-}
-.bal5:hover {
-    transform: scale(3.05)
-    
-}
-
 img {
     width: 20%;
     height:20%;
@@ -216,5 +169,3 @@ img {
   };
 }
 </style>
-
-<!-- convert code to api composition in chatgpt-->
