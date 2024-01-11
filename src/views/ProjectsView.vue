@@ -4,10 +4,10 @@
  
      <div>
         <div class="containerP">
-            <div class="card" style="width: 20rem; height:20rem" v-for="info in $store.state.projects" :key="info">
+            <div class="card text-light" style="width: 20rem; height:20rem" v-for="info in $store.state.projects" :key="info">
+              <img :src="info.url" alt="">
             {{ info.name }} <br>
             {{ info.description }} <br>
-            <img :src="info.url" alt="">
             
             <div class="btn">
                 <a :href="info.github" target="_blank"><button>
@@ -55,7 +55,7 @@ this.projects
   align-items:center;
   min-height:100vh;
 }
-.card-img-overlay{
+/* .card-img-overlay{
    transform: translateY(13rem);
    transition: transform .18s ease-in;
    background-color: rgba(0,0,0,1);
@@ -63,15 +63,15 @@ this.projects
     opacity:0;
     transform: translateY(-6rem);
     transition: opacity .05s ease-in, transform .25s ease-in;
-  }
-  .btn{
+  } */
+  /* .btn{
     opacity:0;
     transform: translateY(2rem);
-  }
-}
+  } */
+/* } */
 .card{
   overflow: hidden;
-  background-color: #345;
+  background-color: rgb(4, 4, 5);
   &:hover{
     .card-img{
       mix-blend-mode: overlay;

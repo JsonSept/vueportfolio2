@@ -11,16 +11,11 @@
     
 <div class="conti">
   <div>
-  <img id="bg" class="animate__animated animate__fadeIn" src="https://i.ibb.co/qRMRtTn/IMG-16413531471213505-removebg-preview.png" alt="">
-</div>
-  <div id="gfg1">
-    
-
-       
-        <div class="typing-demo">Hi I'm <span class="name name-primary">{{ name }}</span></div>
-        
-        <router-link to="/about"><button class="animate__animated animate__fadeInRight" to="/src/views/AboutView.vue">About Me</button></router-link>
-       
+    <img id="bg" class="animate__animated animate__fadeIn" src="https://i.ibb.co/qRMRtTn/IMG-16413531471213505-removebg-preview.png" alt="">
+  </div>
+      <div id="gfg1">
+        <div id="greet" class="typing-demo"><span>Hi I'm </span><span class="name name-primary">{{ name }}</span></div>
+        <router-link to="/about"><button id="btn" class="animate__animated animate__fadeInRight" to="/src/views/AboutView.vue">About Me</button></router-link>
       </div>
     </div>
   </div>
@@ -163,9 +158,42 @@ img {
     height:20%;
 }
 
-@media screen and (max-width: 300px) {
-  img {
-    height:1vh;
+@media screen and (max-width: 900px) {
+  .body {
+    
+  }
+  span {
+    font-size: x-small;
   };
+  #btn {
+    font-size: 4px;
+    height:20px;
+  }
+  
+  #bg {
+    height:50%;
+    width:50%;
+  }
+  
+}
+@media screen and (max-width: 900px) {
+  img {
+    width: 10%;
+    height:10%;
+}
+button {
+font-size: 7px;
+}
+.container {
+  display: inline-block;
+  justify-content: center;
+  height:90vh;
+  padding-bottom: none;
+  margin-left: none;
+}
+.gfg1 {
+display: block;
+justify-content: center;
+}
 }
 </style>

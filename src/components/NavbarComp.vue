@@ -118,7 +118,7 @@ export default {
 
     @media screen and (max-width: 900px) {
       .nav2 {
-        font-size: 12px;
+        font-size: 7px;
       }
 
     }

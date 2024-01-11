@@ -119,8 +119,8 @@ export default {
   margin-top: 9%;
   width: 50%;
   display: flex;
-  border: solid black 2px;
-  background-color: black transparent 0.1;
+  border: solid white 2px;
+  background-color: white transparent 0.1;
   margin-top: 3%;
   margin-right: 30px;
   padding-top: 10%;

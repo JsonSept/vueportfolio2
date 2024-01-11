@@ -27,7 +27,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 2)), url("https://i.ibb.co/tH9gT72/mynewbg.jpg");
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 3)), url("https://i.ibb.co/tH9gT72/mynewbg.jpg");
   background-blend-mode: darken;
 }
 

@@ -28,10 +28,8 @@
 
        <h1>Subjects on High School</h1>
        <div id="inner3">
-        <div id="card3" class="animate__animated animate__slideInUp" style="width: 12rem; height:5rem" v-for="info in $store.state.subjects" :key="info">
-       
-        {{ info.name }}
-      
+         <div id="card3" class="animate__animated animate__slideInUp" style="width: 12rem; height:5rem" v-for="info in $store.state.subjects" :key="info">
+          {{ info.name }}
        </div>
        </div>
        
@@ -105,7 +103,7 @@ anim
 background: linear-gradient(343deg, rgb(0, 165, 187) 10%, rgba(12,176,125,1) 49%, rgba(3,140,168,1) 100%);
 }
 
-#
+
 .containerP {
     
     justify-content:space-around;
@@ -128,25 +126,39 @@ background: linear-gradient(343deg, rgb(0, 165, 187) 10%, rgba(12,176,125,1) 49%
 padding-bottom: 50px;
 }
 #card3 {
-  /* display: flex; */
-  justify-content: center;
+  display: flex;
+   justify-content: center;
 }
 h1 {
   text-align: center;
 }
-    .inner1 ,.inner2 ,.inner3 {
+    #inner1 ,#inner2 ,#inner3 {
       display: flex;
       text-align: center;
+      justify-content: center;
     }
     .inner1 {
       margin-left: 30%;
+      display: flex;
     }
 
     .inner2 {
       margin-left: 3%;
+      display: flex;
       
     }
     .inner3 {
       padding-bottom: 3rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      #card1 , #card2 ,#card3 {
+/* padding-bottom: 50px; */
+font-size: 5px;
+
+}
+h4 {
+  font-size: 10px;
+}
     }
 </style>
