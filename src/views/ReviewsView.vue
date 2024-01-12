@@ -1,6 +1,7 @@
 <template>
-    <h1>My Reviews</h1>
+    <h1>My Testimonials</h1>
 <!-- <div class="card"> -->
+  <div class="construct">
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div id="test" class="carousel-item" v-for="info,index in $store.state.reviews" :key="info" :class="{active: index==0}">
@@ -24,7 +25,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+</div>
 </template>
 
 <script>
@@ -66,7 +67,7 @@ this.reviews
 #test {
   text-align: center;
   padding-bottom: 2%;
-  border:10px solid black;
+  
 }
 .structureR {
   display: flex;
@@ -90,26 +91,45 @@ this.reviews
         /* font-size: 2px; */
         display: inline-block;
         display: grid;
+        padding-bottom: 30%;
     
 }
 
 }
 @media screen and (max-width: 900px) {
+  .construct {
+    padding-bottom: 48%;
+  }
+  h3 , h4 {
+    font-size: 10px;
+
+  }
   .cardReviews {
+    margin-left: 17%;
     font-size: 8px;
     width: 200px;
     text-align: center;
+    height: 150px;
+    width: 200px;
+    font-size: 5px;
+    margin-top: 30%;
+  }
+  img {
+    height:20px;
+    width: 20px;
   }
   p{
     margin-right: 70%;
   }
   .cardR {
+    
     width: 15rem;
     height: fit-content;
     text-align: center;
     display: flex;
     justify-content: center;
-  
+    flex-wrap: wrap;
+    
   }
   
 }

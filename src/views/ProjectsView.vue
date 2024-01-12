@@ -2,7 +2,7 @@
     
 <h1>My projects</h1>
  
-     <div>
+     <div class="top">
         <div class="containerP">
             <div class="card text-light" style="width: 20rem; height:20rem" v-for="info in $store.state.projects" :key="info">
               <img :src="info.url" alt="">
@@ -45,7 +45,14 @@ this.projects
         return {
             
         }
-    }
+    },
+
+errorCaptured(err, vm, info) {
+    
+    console.error(err, vm, info);
+    alert("Something went wrong. Please try again later.");
+    return false; 
+  },
 }
 </script>
 <style scoped>
@@ -144,6 +151,9 @@ button:hover {
 }
 
 @media screen and (max-width: 300px) {
+  .top {
+    margin-left: 10%;
+  }
     .card {
         font-size: 13px;
     display: flex;
@@ -159,6 +169,15 @@ button:hover {
     margin: 15px;
     height: 42%; 
     width: 60%; 
+}
+.containerP {
+  width: 230px;
+  padding-left: 10%;
+
+}
+img {
+  width: 50%;
+  margin-left: 25%;
 }
 }
 

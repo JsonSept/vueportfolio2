@@ -10,18 +10,25 @@
   
     
 <div class="conti">
-  <div>
+  <div class="image">
     <img id="bg" class="animate__animated animate__fadeIn" src="https://i.ibb.co/qRMRtTn/IMG-16413531471213505-removebg-preview.png" alt="">
   </div>
+  
       <div id="gfg1">
-        <div id="greet" class="typing-demo"><span>Hi I'm </span><span class="name name-primary">{{ name }}</span></div>
-        <router-link to="/about"><button id="btn" class="animate__animated animate__fadeInRight" to="/src/views/AboutView.vue">About Me</button></router-link>
+        <!-- <div id="greet" class="typing-demo"><span>Hi I'm </span><br><span class="name name-primary">{{ name }}</span></div> -->
+        <div class="animate__animated animate__flipInX">
+          <h1>{{ greet }}</h1>
+          <h1>{{ name }}</h1>
+          <h1>{{ text }}</h1>
+          <h1>{{ title }}</h1>
+          <router-link to="/about"><button id="btn" class="animate__animated animate__fadeInRight" to="/src/views/AboutView.vue">About Me</button></router-link>
+  </div>
       </div>
     </div>
-  </div>
     
-
     </div>
+  </div>
+    <!-- </div> -->
     
   
  <!-- </div> -->
@@ -35,6 +42,7 @@ import { ref, watchEffect } from 'vue'
 
 const show = ref(false)
 export default {
+ 
   data(){
     return {
         show: false,
@@ -68,21 +76,22 @@ button {
  border: none;
  padding: 4px;
 }
-.typing-demo {
+
+/* .typing-demo {
   width: 510px;
-  animation: typing 4s steps(30), blink .5s step-end infinite alternate;
+  animation: typing 5s steps(25), blink 2.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3em;
 
-}
-@keyframes typing {
+} */
+/* @keyframes typing {
   from {
     width: 0
   }
-}
+} */
 
 #gfg1 {
   margin-left: 18%;
@@ -96,8 +105,8 @@ button {
 #bg {
   height: 98%;
   width: 100%;
-  border: 5px solid black;
-  border-radius: 20px;
+  
+  
 }
 /* home animation */
 .animate__animated.animate__bounce {
@@ -107,7 +116,10 @@ button {
   --animate-duration: 2s;
 }
 .animate__animated.animate__fadeInRight{
-  --animate-duration: 15s;
+  --animate-duration: 5s;
+}
+.animate__animated.animate__flipInX{
+  --animate-duration: 5s;
 }
 /* This changes all the animations globally */
 :root {
@@ -159,9 +171,7 @@ img {
 }
 
 @media screen and (max-width: 900px) {
-  .body {
-    
-  }
+
   span {
     font-size: x-small;
   };
@@ -180,20 +190,33 @@ img {
   img {
     width: 10%;
     height:10%;
+    position:static;
+    
 }
 button {
-font-size: 7px;
+font-size: 5px;
+height: 10px;
+
 }
 .container {
-  display: inline-block;
+  
+  /* display: inline-block;
   justify-content: center;
-  height:90vh;
-  padding-bottom: none;
+  /* height:90vh; */
+  padding-bottom: 55vh;
   margin-left: none;
+
+}
+.typing-demo {
+  margin-left: 20%;
 }
 .gfg1 {
 display: block;
 justify-content: center;
+}
+.greet {
+  height: 100px;
+  width: auto;
 }
 }
 </style>

@@ -152,8 +152,8 @@
         "name": "Keyboard",
          "description" : "Made with HTML, CSS and JavaScript",
          "url" : "https://i.postimg.cc/HncWWRHm/Screenshot-2023-11-01-115543.png",
-         "github" : "https://github.com/JsonSept/keyboard.git",
-        "netlify" : "https://effervescent-manatee-8e6619.netlify.app"
+         "github" : "https://github.com/JsonSept/jsKeyboard.git",
+        "netlify" : "https://wonderful-blini-2d38a2.netlify.app"
     },
     {
         "name": "Coffee Shop",
