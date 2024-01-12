@@ -2,33 +2,43 @@
   <navbar-comp/>
   <router-view/>
   <footer-comp/>
+  <spinner-comp/>
 </template>
 
 <script>
   import NavbarComp from './components/NavbarComp.vue';
   import FooterComp from './components/FooterComp.vue';
+  import SpinnerComp from './components/SpinnerComp.vue';
+
   export default {
     components: {
       NavbarComp,
-      FooterComp
+      FooterComp,
+      SpinnerComp,
     }
   }
 </script>
 
 <style>
-
+h1,h2,h3,h4:hover {
+  color: aqua;
+}
 #app {
+
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   /* font-family: Press+Start+2; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* background: linear-gradient(rgba(255, 255, 255, 0.503), rgba(0, 0, 0, 1)), url("https://i.ibb.co/tH9gT72/mynewbg.jpg"); */
+background: linear-gradient(rgba(255, 255, 255, 0.503), rgba(0, 0, 0, 1)), url("https://i.ibb.co/RyT9rTz/newnewbg.jpg");
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
-background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 3)), url("https://i.ibb.co/tH9gT72/mynewbg.jpg");
-  background-blend-mode: darken;
 }
 
 nav {

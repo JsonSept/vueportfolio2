@@ -25,7 +25,6 @@
     <h4 v-for="info in $store.state.hobbies" :key="info">{{ info.code }}</h4>
   </div>
     </div>
-    ,
 
   </div>
 </template>
@@ -107,9 +106,13 @@ h5 {
     width:50%;
     
   }
+  h4 {
+    font-size: 20px;
+  }
   .about {
     display:grid;
     text-align: center;
+    
   }
   h1 {
   text-align: center;
@@ -125,7 +128,6 @@ h5 {
 .div2 {
   margin-left:10%;
   width:100%;
-  
   
 }
 }
