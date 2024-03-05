@@ -148,21 +148,24 @@ svg:hover {
     
   }
   .cont1 {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     height: 50%;
+    
     
   }
   input {
-    height: 10px;
+    height: 20px;
   }
   svg {
     width: 10px;
     display: flex;
+    text-align: center;
     justify-content: center;
     padding-bottom: 30%;
   }
   .cont2 {
     display: flex;
+    text-align: center;
     justify-content:center;
     font-size: 5px;
     margin-right:20px;
@@ -173,7 +176,7 @@ svg:hover {
    padding-bottom: 40%;
   }
   .bg {
-    padding-bottom: 30%;
+    padding-bottom: 10%;
   }
  }
 </style>
