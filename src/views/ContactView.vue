@@ -102,14 +102,13 @@ svg:hover {
 
 
  .cont2 {
-  margin-left: 10%;
+  
   margin-top: 9%;
   width: 50%;
   display: flex;
   background-color: white;
   opacity: calc(0.7);
   margin-top: 3%;
-   padding: 10%;
   box-shadow: 0,0,0,2px #0592ae;
   text-align: center;
  }
@@ -122,7 +121,7 @@ svg:hover {
     
   }
   .cont1 {
-    height: 60%;
+    height: 75%;
     
     
   }
@@ -138,6 +137,7 @@ svg:hover {
   }
   .cont2 {
   text-align: center;
+  width: 100%
   }
   form {
    padding-bottom: 40%;
