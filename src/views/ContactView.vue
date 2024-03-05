@@ -81,9 +81,9 @@ export default {
 }
 </script>
 <style>
-.row {
+/* .row {
   padding-bottom: 60%;
-}
+} */
 .cardReviews2 {
   margin-left: 25%;
   margin-top:2%;
@@ -100,7 +100,7 @@ export default {
   box-shadow: 0 8px 40px 0 white;
 }
 .bg{
-    padding-bottom: 50%;
+    padding-bottom: 80%;
   }
 /* svg:hover {
   transform: scaleX(1);
