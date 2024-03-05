@@ -97,13 +97,13 @@ svg:hover {
 
 
  
- .cont {
+ /* .cont {
    display: flex;
    justify-content: baseline;
 
     /* justify-content: space-around; */
-    padding-bottom: 125px;
- }
+    /* padding-bottom: 125px; 
+ } */
 
  
  .cont1 {
@@ -129,9 +129,10 @@ svg:hover {
   opacity: calc(0.7);
   margin-top: 3%;
   margin-right: 30px;
-  padding-top: 10%;
+  /* padding-top: 10%;
   padding-left: 12%;
-  
+   */
+   padding: 10%;
   box-shadow: 0,0,0,2px #0592ae;
 
   
