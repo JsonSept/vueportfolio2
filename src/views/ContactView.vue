@@ -98,17 +98,18 @@ svg:hover {
  
 bg {
   padding-right:0;
+  padding-bottom: 20%
 }
  
  .cont1 {
   width: 50%;
   display: flex;
-  
+  justify-content: center;
   margin-top: 3%;
   padding-left: 10%;background-color: black;
   box-shadow: 0,0,0,2px #0592ae;
 
-  margin-left: 30px;
+  /* margin-left: 30px; */
  }
 
 
@@ -137,6 +138,9 @@ bg {
     margin-right: 40%;
     padding-bottom: 30%;
     
+  }
+  body {
+    padding-left: 10%;
   }
   .cont1 {
     height: 60%;
