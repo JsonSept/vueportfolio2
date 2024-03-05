@@ -92,21 +92,22 @@ export default {
   display: flex;
   justify-content: center;
   justify-items: center;
-  background-color: azure;
+  background-color: rgb(88, 93, 93);
   color:black;
   width: 50%;
   height: fit-content;
   border-radius: 9px;
   box-shadow: 0 8px 40px 0 white;
 }
+.bg{
+    padding-bottom: 30%;
+  }
 /* svg:hover {
   transform: scaleX(1);
   color:rgb(254, 255, 255)
 }
    
-  .bg{
-    padding-bottom: 30%;
-  }
+  
 
 .form {
     box-shadow: 0 4px 20px 0 #0592ae;
