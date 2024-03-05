@@ -62,20 +62,7 @@ errorCaptured(err, vm, info) {
   align-items:center;
   min-height:100vh;
 }
-/* .card-img-overlay{
-   transform: translateY(13rem);
-   transition: transform .18s ease-in;
-   background-color: rgba(0,0,0,1);
-  .card-text{
-    opacity:0;
-    transform: translateY(-6rem);
-    transition: opacity .05s ease-in, transform .25s ease-in;
-  } */
-  /* .btn{
-    opacity:0;
-    transform: translateY(2rem);
-  } */
-/* } */
+
 .card{
   overflow: hidden;
   background-color: rgb(4, 4, 5);

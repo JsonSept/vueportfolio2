@@ -37,7 +37,7 @@ export default {
 <style>
 
 .navbar {
-  padding-top: 80px;
+  /* padding-top: 20px; */
   width: 100%;
   display: flex;
   position: static;
