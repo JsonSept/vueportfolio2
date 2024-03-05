@@ -89,6 +89,7 @@ button {
   padding-top: 1%;
 }
 #bg {
+  padding-bottom: 0;
   height: 98%;
   width: 100%;
   
@@ -127,9 +128,9 @@ button {
         }
 
 /* --------- */
-img {
+/* img {
   padding-bottom: 10%;
-}
+} */
 
 
 .btn {
