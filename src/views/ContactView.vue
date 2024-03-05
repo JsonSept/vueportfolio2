@@ -116,20 +116,8 @@ export default {
   box-shadow: 0,0,0,2px #0592ae;
 margin-right: 10%;
  }
-*/
+
  @media screen and (max-width: 900px) {
-  .cardReviews {
-    margin-left: 17%;
-    font-size: 8px;
-    width: 200px;
-    text-align: center;
-    height: 210px;
-    width: 200px;
-    font-size: 5px;
-    margin-top: 30%;
-  }
- }
-  /*
   .cont {
     font-size: 20px;
     height: 50px;
