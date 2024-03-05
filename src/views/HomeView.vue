@@ -127,9 +127,9 @@ button {
         }
 
 /* --------- */
-img {
+/* img {
   padding-bottom: 7%;
-}
+} */
 
 
 .btn {

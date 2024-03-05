@@ -36,6 +36,8 @@ background: linear-gradient(rgba(255, 255, 255, 0.503), rgb(31, 63, 74)), url("h
   /* padding-top: 5%; */
   background-repeat: no-repeat;
   background-size: cover;
+  
+
 }
 
 nav {
