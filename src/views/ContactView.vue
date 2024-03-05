@@ -153,7 +153,7 @@ svg:hover {
     justify-content:center;
     font-size: 5px;
     margin-right:20px;
-
+    height: 30%;
   }
   form {
     padding-right:25px ;
