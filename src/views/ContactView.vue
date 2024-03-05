@@ -90,12 +90,11 @@ svg:hover {
 
 .form {
     box-shadow: 0 4px 20px 0 #0592ae;
-    
+    padding-bottom: 30%;
 }
  
  .cont1 {
   background-color: black;
-  
  
  }
 
@@ -110,7 +109,7 @@ svg:hover {
   opacity: calc(0.7);
   margin-top: 3%;
   box-shadow: 0,0,0,2px #0592ae;
-  text-align: center;
+margin-right: 10%;
  }
 
  @media screen and (max-width: 900px) {
