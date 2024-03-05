@@ -77,21 +77,7 @@ button {
  padding: 4px;
 }
 
-/* .typing-demo {
-  width: 510px;
-  animation: typing 5s steps(25), blink 2.5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
 
-} */
-/* @keyframes typing {
-  from {
-    width: 0
-  }
-} */
 
 #gfg1 {
   margin-left: 18%;
@@ -200,9 +186,7 @@ height: 10px;
 }
 .container {
   
-  /* display: inline-block;
-  justify-content: center;
-  /* height:90vh; */
+  
   padding-bottom: 55vh;
   margin-left: none;
 

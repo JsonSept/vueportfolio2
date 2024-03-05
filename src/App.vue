@@ -21,7 +21,7 @@
 
 <style>
 h1,h2,h3,h4:hover {
-  color: aqua;
+  color: rgb(254, 255, 255);
 }
 #app {
 
