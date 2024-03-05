@@ -32,7 +32,7 @@ h1,h2,h3,h4:hover {
   text-align: center;
   color: white;
   
-background: linear-gradient(rgba(255, 255, 255, 0.503), rgba(0, 0, 0, 1)), url("https://i.ibb.co/RyT9rTz/newnewbg.jpg");
+background: linear-gradient(rgba(255, 255, 255, 0.503), rgb(31, 63, 74)), url("https://i.ibb.co/RyT9rTz/newnewbg.jpg");
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;

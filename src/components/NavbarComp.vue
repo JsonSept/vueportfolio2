@@ -42,7 +42,7 @@ export default {
   display: flex;
   /* position: static; */
   position: fixed;
-  background-position-y: top;
+  /* background-position-y: top; */
 }
 .rbtn {
   border: none;
@@ -64,7 +64,7 @@ export default {
       .navbar {
         font-size: 7px;
         background-position-y: top;
-        /* margin-bottom: %; */
+       
       }
 }
     
