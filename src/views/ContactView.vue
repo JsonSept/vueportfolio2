@@ -86,7 +86,9 @@ svg:hover {
   color:rgb(254, 255, 255)
 }
    
-  
+  .bg{
+    padding-bottom: 30%;
+  }
 
 .form {
     box-shadow: 0 4px 20px 0 #0592ae;
