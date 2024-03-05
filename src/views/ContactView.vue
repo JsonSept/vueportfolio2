@@ -2,7 +2,7 @@
     <div>
         <h1>{{ title }}</h1>
     </div>
-
+    <div class="cardReviews">
 <div class="row">
   <div class="col-lg-6">
     <div class="cont1">
@@ -34,7 +34,8 @@
     </div>
 
   </div>
-
+</div>
+<div class="cardReviews">
   <div class="col-lg-6">
     <div class="cont2">
                                 <div class="logo1  p-3">
@@ -66,7 +67,7 @@
 <div class="cont">
 
 </div>
-
+    </div>
 </template>
 
 <script>
