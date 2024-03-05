@@ -109,7 +109,7 @@ this.reviews
     font-size: 8px;
     width: 200px;
     text-align: center;
-    height: 200px;
+    height: 210px;
     width: 200px;
     font-size: 5px;
     margin-top: 30%;
