@@ -100,7 +100,7 @@ export default {
   box-shadow: 0 8px 40px 0 white;
 }
 .bg{
-    padding-bottom: 30%;
+    padding-bottom: 50%;
   }
 /* svg:hover {
   transform: scaleX(1);
@@ -139,10 +139,10 @@ margin-right: 10%;
     font-size: 8px;
     width: 200px;
     text-align: center;
-    height: 210px;
-    width: 200px;
+    height: 310px;
     font-size: 5px;
     margin-top: 30%;
+
   }
  }
   /*
