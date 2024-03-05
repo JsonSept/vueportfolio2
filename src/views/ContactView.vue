@@ -34,8 +34,8 @@
     </div>
 
   </div>
-</div>
-<div class="cardReviews">
+
+
   <div class="col-lg-6">
     <div class="cont2">
                                 <div class="logo1  p-3">
@@ -89,6 +89,9 @@ export default {
   margin-top:2%;
   margin-bottom:9%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
   background-color: azure;
   color:black;
   width: 50%;
