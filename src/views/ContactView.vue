@@ -92,14 +92,6 @@ svg:hover {
     box-shadow: 0 4px 20px 0 #0592ae;
     
 }
-
-
- 
- 
-bg {
-  padding-right:0;
-  /* padding-bottom: 20% */
-}
  
  .cont1 {
   background-color: black;
