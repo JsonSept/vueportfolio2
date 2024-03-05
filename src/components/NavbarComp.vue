@@ -36,14 +36,14 @@ export default {
 </script>
 <style>
 body {
-  padding-top: 30%;
+  /* padding-top: 30%; */
 }
 .navbar {
  
   width: 100%;
   display: flex;
   position: static;
-  position: fixed;
+  /* position: fixed; */
   /* background-position-y: top; */
 }
 .rbtn {
