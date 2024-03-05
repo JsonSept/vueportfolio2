@@ -89,7 +89,7 @@ button {
   padding-top: 1%;
 }
 #bg {
-  height: 100%;
+  height: 98%;
   width: 100%;
   
   
