@@ -81,7 +81,7 @@ export default {
 </script>
 <style>
 
-svg:hover {
+/* svg:hover {
   transform: scaleX(1);
   color:rgb(254, 255, 255)
 }
@@ -93,9 +93,9 @@ svg:hover {
 .form {
     box-shadow: 0 4px 20px 0 #0592ae;
     /* padding-bottom: 30%; */
-}
+/* } */
  
- .cont1 {
+ /*.cont1 {
   background-color: black;
  
  }
@@ -145,6 +145,6 @@ margin-right: 10%;
    padding-bottom: 40%;
   }
   
- }
+ } */
 </style>
 
