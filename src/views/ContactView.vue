@@ -92,7 +92,7 @@ svg:hover {
 
 .form {
     box-shadow: 0 4px 20px 0 #0592ae;
-    padding-bottom: 30%;
+    /* padding-bottom: 30%; */
 }
  
  .cont1 {
