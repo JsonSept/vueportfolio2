@@ -87,7 +87,7 @@ export default {
   padding-bottom: 60%;
 } */
 .first {
-  padding-bottom: 40%;
+  padding-bottom: 18%;
 }
 .cardReviews2 {
   margin-left: 25%;
