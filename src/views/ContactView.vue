@@ -115,7 +115,7 @@ svg:hover {
 
  @media screen and (max-width: 900px) {
   .cont {
-    font-size: 10px;
+    font-size: 20px;
     height: 50px;
     padding-bottom: 30%;
     
@@ -137,7 +137,8 @@ svg:hover {
   }
   .cont2 {
   text-align: center;
-  width: 100%
+  width: 60%;
+
   }
   form {
    padding-bottom: 40%;
