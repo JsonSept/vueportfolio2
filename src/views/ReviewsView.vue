@@ -115,8 +115,8 @@ this.reviews
     margin-top: 30%;
   }
   img {
-    height:20px;
-    width: 20px;
+    height:40px;
+    width: 40px;
   }
   p{
     margin-right: 70%;
