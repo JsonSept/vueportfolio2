@@ -90,20 +90,12 @@ svg:hover {
 
 .form {
     box-shadow: 0 4px 20px 0 #0592ae;
-    /* transition: 0.3s;
     
-    margin:80px; */
 }
 
 
  
- /* .cont {
-   display: flex;
-   justify-content: baseline;
-
-    /* justify-content: space-around; */
-    /* padding-bottom: 125px; 
- } */
+ 
 
  
  .cont1 {
@@ -129,9 +121,6 @@ svg:hover {
   opacity: calc(0.7);
   margin-top: 3%;
   margin-right: 30px;
-  /* padding-top: 10%;
-  padding-left: 12%;
-   */
    padding: 10%;
   box-shadow: 0,0,0,2px #0592ae;
 
@@ -144,7 +133,7 @@ svg:hover {
     font-size: 10px;
     height: 50px;
     margin-right: 40%;
-    padding-bottom: 146%;
+    padding-bottom: 30%;
     
   }
   .cont1 {
@@ -173,9 +162,7 @@ svg:hover {
     padding-right:25px ;
    padding-bottom: 40%;
   }
-  /* .bg {
-    padding-bottom: 10%;
-  } */
+  
  }
 </style>
 
