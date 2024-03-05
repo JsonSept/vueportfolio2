@@ -47,7 +47,7 @@ export default {
     return {
         show: false,
       greet: 'Hi',
-      name: 'Jason September nice to meet you',
+      name: 'Jason Septembe',
       text: 'And I am an',
       title: 'Aspiring Developer'
     
