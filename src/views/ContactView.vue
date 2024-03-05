@@ -2,7 +2,7 @@
     <div>
         <h1>{{ title }}</h1>
     </div>
-    <div class="cardReviews">
+    <div class="cardReviews2">
 <div class="row">
   <div class="col-lg-6">
     <div class="cont1">
@@ -84,7 +84,7 @@ export default {
 .row {
   padding-bottom: 60%;
 }
-.cardReviews {
+.cardReviews2 {
   margin-left: 25%;
   margin-top:2%;
   margin-bottom:9%;
@@ -134,7 +134,7 @@ margin-right: 10%;
  }
 */
  @media screen and (max-width: 900px) {
-  .cardReviews {
+  .cardReviews2 {
     margin-left: 17%;
     font-size: 8px;
     width: 200px;
