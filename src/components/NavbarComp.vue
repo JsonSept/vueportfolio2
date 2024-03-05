@@ -35,12 +35,14 @@ export default {
 }
 </script>
 <style>
-
+body {
+  padding-top: 30%;
+}
 .navbar {
  
   width: 100%;
   display: flex;
-  /* position: static; */
+  position: static;
   position: fixed;
   /* background-position-y: top; */
 }

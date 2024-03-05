@@ -133,7 +133,6 @@ svg:hover {
     height: 50px;
     margin-right: 40%;
     padding-bottom: 146%;
-    background-color:
   }
   .cont1 {
     margin-left: 20px;

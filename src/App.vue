@@ -25,8 +25,7 @@ h1,h2,h3,h4:hover {
 }
 #app {
 
-  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
-  /* font-family: Press+Start+2; */
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -34,6 +33,7 @@ h1,h2,h3,h4:hover {
   
 background: linear-gradient(rgba(255, 255, 255, 0.503), rgb(31, 63, 74)), url("https://i.ibb.co/RyT9rTz/newnewbg.jpg");
   background-blend-mode: darken;
+  padding-top: 5%;
   background-repeat: no-repeat;
   background-size: cover;
 }
