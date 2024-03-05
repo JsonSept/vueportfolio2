@@ -98,7 +98,7 @@ this.reviews
 }
 @media screen and (max-width: 900px) {
   .construct {
-    padding-bottom: 52%;
+    padding-bottom: 55%;
   }
   h3 , h4 {
     font-size: 10px;
