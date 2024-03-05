@@ -149,7 +149,7 @@ svg:hover {
   }
   .cont1 {
     /* margin-left: 20px; */
-    height: 50%;
+    height: 60%;
     
     
   }
@@ -168,7 +168,7 @@ svg:hover {
     text-align: center;
     justify-content:center;
     font-size: 5px;
-    margin-right:20px;
+    margin:20px;
     height: 50%;
   }
   form {
