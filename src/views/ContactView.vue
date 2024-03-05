@@ -2,6 +2,7 @@
     <div>
         <h1>{{ title }}</h1>
     </div>
+    <div class="first">
     <div class="cardReviews2">
 <div class="row">
   <div class="col-lg-6">
@@ -68,6 +69,7 @@
 
 </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -84,6 +86,9 @@ export default {
 /* .row {
   padding-bottom: 60%;
 } */
+.first {
+  padding-bottom: 40%;
+}
 .cardReviews2 {
   margin-left: 25%;
   margin-top:2%;
