@@ -98,13 +98,12 @@ svg:hover {
  
 bg {
   padding-right:0;
-  padding-bottom: 20%
+  /* padding-bottom: 20% */
 }
  
  .cont1 {
   width: 50%;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-top: 3%;
   padding-left: 10%;background-color: black;
   box-shadow: 0,0,0,2px #0592ae;
@@ -119,14 +118,12 @@ bg {
   margin-top: 9%;
   width: 50%;
   display: flex;
-  
   background-color: white;
   opacity: calc(0.7);
   margin-top: 3%;
-  margin-right: 30px;
    padding: 10%;
   box-shadow: 0,0,0,2px #0592ae;
-
+  text-align: center;
   
  
  }
