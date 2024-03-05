@@ -37,10 +37,11 @@ export default {
 <style>
 
 .navbar {
-  /* padding-top: 20px; */
+ 
   width: 100%;
   display: flex;
-  position: static;
+  /* position: static; */
+  position: fixed;
   background-position-y: top;
 }
 .rbtn {
@@ -81,10 +82,5 @@ export default {
         text-align: center;
     }  
 
-    /* @media screen and (max-width: 900px) {
-      .nav2 {
-        font-size: 7px;
-      }
-
-    } */
+   
 </style>

@@ -72,20 +72,9 @@ export default {
 
 svg:hover {
   transform: scaleX(1);
-  color:aqua
+  color:rgb(254, 255, 255)
 }
-    form {
-       
-        /* text-align: center;
-        
-        width: 39%;
-       
-        margin-bottom:10px;
-        padding: 20px;
-        opacity: 2s ease;
-         */
-        
-    }
+   
   
 
 .form {
@@ -131,7 +120,7 @@ svg:hover {
   margin-right: 30px;
   padding-top: 10%;
   padding-left: 12%;
-  /* background-color: black; */
+  
   box-shadow: 0,0,0,2px #0592ae;
 
   

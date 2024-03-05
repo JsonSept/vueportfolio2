@@ -58,16 +58,6 @@
 #animate__animated.animate__bounceInLeft {
   --animate-duration: 6s;
 }
-anim
-/* This changes all the animations globally */
-:root {
-  /* --animate-duration: 800ms; */
-  /* --animate-delay: 0.9s; */
-}
-
-
-
-/* --------- */
 
 h1 {
   padding-top: 20px;

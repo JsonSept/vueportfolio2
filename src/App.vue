@@ -31,10 +31,7 @@ h1,h2,h3,h4:hover {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  /* background-attachment: fixed; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-/* background: linear-gradient(rgba(255, 255, 255, 0.503), rgba(0, 0, 0, 1)), url("https://i.ibb.co/tH9gT72/mynewbg.jpg"); */
+  
 background: linear-gradient(rgba(255, 255, 255, 0.503), rgba(0, 0, 0, 1)), url("https://i.ibb.co/RyT9rTz/newnewbg.jpg");
   background-blend-mode: darken;
   background-repeat: no-repeat;
@@ -46,11 +43,11 @@ nav {
 }
 
 nav a {
-  /* margin-left: 20%; */
+ 
   font-weight: bold;
   color: white;
   align-content: end;
-  /* justify-content: end; */
+  
 }
 
 nav a.router-link-exact-active {
