@@ -96,7 +96,9 @@ svg:hover {
 
  
  
-
+bg {
+  padding-right:0;
+}
  
  .cont1 {
   width: 50%;
@@ -112,7 +114,7 @@ svg:hover {
 
 
  .cont2 {
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 9%;
   width: 50%;
   display: flex;
@@ -157,6 +159,8 @@ svg:hover {
     justify-content:center;
     font-size: 10px;
     width: 90%;
+
+    margin-left: 20%;
   }
   form {
     padding-right:25px ;
