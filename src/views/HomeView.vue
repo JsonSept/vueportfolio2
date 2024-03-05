@@ -13,7 +13,8 @@
   <div class="image">
     <img id="bg" class="animate__animated animate__fadeIn" src="https://i.ibb.co/qRMRtTn/IMG-16413531471213505-removebg-preview.png" alt="">
   </div>
-  
+  <br>
+  <br>
       <div id="gfg1">
         <!-- <div id="greet" class="typing-demo"><span>Hi I'm </span><br><span class="name name-primary">{{ name }}</span></div> -->
         <div class="animate__animated animate__flipInX">
