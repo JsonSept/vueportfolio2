@@ -149,11 +149,11 @@ svg:hover {
     padding-bottom: 30%;
   }
   .cont2 {
-    display: flex;
-    justify-content:center;
+    /* display: flex; */
+    /* justify-content:center; */
     font-size: 5px;
     margin-right:20px;
-    height: 30%;
+    height: 50%;
   }
   form {
     padding-right:25px ;
