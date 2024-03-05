@@ -82,7 +82,7 @@ export default {
 </script>
 <style>
 .row {
-  padding-bottom: 40%;
+  padding-bottom: 60%;
 }
 .cardReviews {
   margin-left: 25%;
@@ -139,7 +139,7 @@ margin-right: 10%;
     font-size: 8px;
     width: 200px;
     text-align: center;
-    height: 310px;
+    height: 70%;
     font-size: 5px;
     margin-top: 30%;
 
