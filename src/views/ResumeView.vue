@@ -41,6 +41,7 @@
               <h5>CSS</h5>
               <h5>JavaScript</h5>
               <h5>Vue JS</h5>
+
   <!-- </div> -->
           </div>
         </div>
@@ -87,7 +88,9 @@ export default {
 </script>
 <style>
 
-
+.div4 {
+  padding-bottom: 5%;
+}
 
     @media screen and (max-width: 900px) {
       #card1 , #card2 ,#card3 {

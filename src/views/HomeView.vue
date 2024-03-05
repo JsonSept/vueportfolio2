@@ -82,6 +82,7 @@ button {
 #gfg1 {
   margin-left: 18%;
   margin-top: 12%;
+  padding-bottom: 20%;
 }
 .conti {
   display: flex;
