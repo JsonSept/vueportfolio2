@@ -33,7 +33,7 @@ h1,h2,h3,h4:hover {
   
 background: linear-gradient(rgba(255, 255, 255, 0.503), rgb(31, 63, 74)), url("https://i.ibb.co/RyT9rTz/newnewbg.jpg");
   background-blend-mode: darken;
-  padding-top: 5%;
+  /* padding-top: 5%; */
   background-repeat: no-repeat;
   background-size: cover;
 }

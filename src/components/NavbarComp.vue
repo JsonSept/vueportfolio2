@@ -35,9 +35,9 @@ export default {
 }
 </script>
 <style>
-body {
-  /* padding-top: 30%; */
-}
+/* body {
+  /* padding-top: 30%; 
+} */
 .navbar {
  
   width: 100%;
