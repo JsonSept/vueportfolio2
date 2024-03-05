@@ -102,13 +102,9 @@ bg {
 }
  
  .cont1 {
-  width: 50%;
-  text-align: center;
-  margin-top: 3%;
-  padding-left: 10%;background-color: black;
-  box-shadow: 0,0,0,2px #0592ae;
-
-  /* margin-left: 30px; */
+  background-color: black;
+  
+ 
  }
 
 
@@ -124,20 +120,14 @@ bg {
    padding: 10%;
   box-shadow: 0,0,0,2px #0592ae;
   text-align: center;
-  
- 
  }
 
  @media screen and (max-width: 900px) {
   .cont {
     font-size: 10px;
     height: 50px;
-    margin-right: 40%;
     padding-bottom: 30%;
     
-  }
-  body {
-    padding-left: 10%;
   }
   .cont1 {
     height: 60%;
@@ -155,16 +145,9 @@ bg {
     padding-bottom: 30%;
   }
   .cont2 {
-    
-    text-align: center;
-    justify-content:center;
-    font-size: 10px;
-    width: 90%;
-
-    margin-left: 20%;
+  text-align: center;
   }
   form {
-    padding-right:25px ;
    padding-bottom: 40%;
   }
   
