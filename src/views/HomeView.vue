@@ -11,18 +11,17 @@
     
 <div class="conti">
   <div class="image">
-    <img id="bg" class="animate__animated animate__fadeIn" src="https://i.ibb.co/qRMRtTn/IMG-16413531471213505-removebg-preview.png" alt="">
+    <img id="bg" class="animate__animated animate__fadeIn" src="" alt="">
   </div>
   <br>
   <br>
       <div id="gfg1">
         <!-- <div id="greet" class="typing-demo"><span>Hi I'm </span><br><span class="name name-primary">{{ name }}</span></div> -->
         <div class="animate__animated animate__flipInX">
-          <h1>{{ greet }}</h1>
+          
           <h1>{{ name }}</h1>
-          <h1>{{ text }}</h1>
-          <h1>{{ title }}</h1>
-          <router-link to="/about"><button id="btn" class="animate__animated animate__fadeInRight" to="/src/views/AboutView.vue">About Me</button></router-link>
+          
+          <router-link to="/about"><button id="btn" to="/src/views/AboutView.vue">About Me</button></router-link>
   </div>
       </div>
     </div>
@@ -73,8 +72,9 @@ export default {
 <style scoped>
 button {
  border-radius: 15px;
- background-color: aqua;
+ background-color: rgb(0, 0, 0);
  border: none;
+ box-shadow: 1px 1px 1px 1px white;
  padding: 4px;
 }
 
