@@ -52,6 +52,9 @@ this.reviews
   margin-left: 29%;
   padding-bottom: 2%;
 }
+    h3 {
+    color:black;
+    }
 .cardReviews {
   margin-left: 25%;
   margin-top:2%;
